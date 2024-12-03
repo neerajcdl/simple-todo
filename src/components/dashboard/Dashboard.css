@@ -1,3 +1,12 @@
+.search-input-field input{
+ padding: 10px 10px;
+ width: 50%;
+ margin-top: 20px;
+ margin-left: 20px;
+ border-radius: 4px;
+ border: 1px solid black;
+}
+
 .dashboard-btn-container {
   display: flex;
   align-items: center;
@@ -43,7 +52,12 @@
 .dashboard-btn-container > button:nth-child(3) {
   background-color: #03a616;
 }
-
+.no-data-part{
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
 @media screen and (max-width: 576px) {
   .dashboard-data-container {
     width: 100%; 
