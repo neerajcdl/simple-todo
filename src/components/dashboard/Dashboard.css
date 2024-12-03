@@ -1,0 +1,54 @@
+.dashboard-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.dashboard-data-container {
+  background-color: #a0a0a0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 20px 0 20px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 540px;
+}
+.dashboard-data {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.dashboard-data-container .dashboard-data {
+  background-color: black;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.dashboard-data-container .dashboard-data > p {
+  padding: 10px 0;
+  color: #fff;
+}
+.dashboard-btn-container > button {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.dashboard-btn-container > button:nth-child(1) {
+  background-color: #ed1909;
+}
+.dashboard-btn-container > button:nth-child(2) {
+  background-color: #fabc11;
+}
+.dashboard-btn-container > button:nth-child(3) {
+  background-color: #03a616;
+}
+
+@media screen and (max-width: 576px) {
+  .dashboard-data-container {
+    width: 100%; 
+  }
+  button {
+    font-size: 12px;
+  }
+}

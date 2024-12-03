@@ -1,0 +1,51 @@
+.form-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px;
+}
+
+.form-wrapper {
+  width: 55%;
+}
+
+.list-container {
+  width: 30%;
+  margin-top: 20px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+.submit-button{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .form-wrapper {
+    width: 100%;
+  }
+  .list-container {
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .flex-container {
+    gap: 0px;
+  }
+}
