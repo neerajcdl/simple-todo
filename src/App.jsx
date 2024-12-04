@@ -42,7 +42,6 @@ function App() {
         />
         <Route
           path="/dashboard"
-          exact
           element={
             <Dashboard
               todoData={todoData}
